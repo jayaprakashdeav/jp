@@ -6,9 +6,9 @@ pipeline {
         bat 'echo \'Hello world 111\''
       }
     }
-    stage('Call powershall script') {
+    stage('Call Batch File') {
       steps {
-        powershell 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\hello_ps.ps1'
+        bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\Bat_Hello.bat'
       }
     }
   }
