@@ -11,5 +11,10 @@ pipeline {
         bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\hello_ps.bat'
       }
     }
+    stage('Python') {
+      steps {
+        bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\hello_python.py'
+      }
+    }
   }
 }
