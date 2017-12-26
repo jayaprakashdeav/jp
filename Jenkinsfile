@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Python') {
       steps {
-        bat(script: 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\hello_python.py', encoding: 'python hello_python.py')
+        bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\Hello_Pyton.bat'
       }
     }
   }
