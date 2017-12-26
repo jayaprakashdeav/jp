@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Call Batch File') {
       steps {
-        bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\Bat_Hello.bat'
+        bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\hello_ps.bat'
       }
     }
   }
