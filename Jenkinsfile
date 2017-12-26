@@ -6,7 +6,7 @@ pipeline {
         bat 'echo \'Hello world 111\''
       }
     }
-    stage('Call Batch File') {
+    stage('Call power shall using Batch File') {
       steps {
         bat 'C:\\Users\\jayaprakash.s\\Desktop\\delete\\hello_ps.bat'
       }
